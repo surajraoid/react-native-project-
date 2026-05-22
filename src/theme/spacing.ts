@@ -1,0 +1,80 @@
+export const Spacing = {
+  xs2: 2,
+  xs: 4,
+  sm: 8,
+  md: 12,
+  base: 16,
+  lg: 20,
+  xl: 24,
+  xl2: 32,
+  xl3: 40,
+  xl4: 48,
+  xl5: 64,
+  xl6: 80,
+  xl7: 96,
+  xl8: 128,
+} as const;
+
+export const BorderRadius = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  base: 16,
+  lg: 20,
+  xl: 24,
+  xl2: 28,
+  xl3: 32,
+  full: 9999,
+} as const;
+
+export const Shadow = {
+  sm: {
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 1},
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  md: {
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.35,
+    shadowRadius: 8,
+    elevation: 6,
+  },
+  lg: {
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 8},
+    shadowOpacity: 0.4,
+    shadowRadius: 16,
+    elevation: 12,
+  },
+  xl: {
+    shadowColor: '#000',
+    shadowOffset: {width: 0, height: 16},
+    shadowOpacity: 0.5,
+    shadowRadius: 24,
+    elevation: 20,
+  },
+  primary: {
+    shadowColor: '#7C4DFF',
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.5,
+    shadowRadius: 12,
+    elevation: 8,
+  },
+  gold: {
+    shadowColor: '#FFD700',
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.4,
+    shadowRadius: 10,
+    elevation: 8,
+  },
+  secondary: {
+    shadowColor: '#FF4081',
+    shadowOffset: {width: 0, height: 4},
+    shadowOpacity: 0.4,
+    shadowRadius: 10,
+    elevation: 8,
+  },
+} as const;
