@@ -243,7 +243,7 @@ const styles = StyleSheet.create({
   container: {flex: 1, backgroundColor: Colors.background},
   header: {
     paddingHorizontal: Spacing.base,
-    paddingTop: Platform.OS === 'ios' ? 60 : 40,
+    paddingTop: 40,
     paddingBottom: Spacing.md,
   },
   headerTitle: {...Typography.h2, color: Colors.textPrimary},

@@ -5,7 +5,6 @@ import {
   StyleSheet,
   TouchableOpacity,
   StatusBar,
-  Platform,
   useWindowDimensions,
   ScrollView,
 } from 'react-native';
@@ -302,7 +301,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.background,
-    paddingTop: Platform.OS === 'ios' ? 44 : 0,
+    paddingTop: 0,
   },
   topBar: {
     flexDirection: 'row',

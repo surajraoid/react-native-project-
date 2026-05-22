@@ -7,7 +7,6 @@ import {
   FlatList,
   TouchableOpacity,
   StatusBar,
-  Platform,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import Animated, {
@@ -251,7 +250,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     paddingHorizontal: Spacing.xl2,
-    paddingTop: Platform.OS === 'ios' ? 80 : 60,
+    paddingTop: 60,
     paddingBottom: 220,
     gap: Spacing.lg,
   },
@@ -309,7 +308,7 @@ const styles = StyleSheet.create({
     left: 0,
     right: 0,
     paddingHorizontal: Spacing.xl,
-    paddingBottom: Platform.OS === 'ios' ? 40 : Spacing.xl,
+    paddingBottom: Spacing.xl,
     paddingTop: Spacing.lg,
     backgroundColor: Colors.background,
     borderTopWidth: 1,

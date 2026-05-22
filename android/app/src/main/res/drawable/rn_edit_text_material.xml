@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:inset="@dimen/abc_edit_text_inset_horizontal_material">
+    <selector>
+        <item android:state_enabled="false"
+            android:drawable="?attr/colorControlDisabled"/>
+        <item android:state_pressed="false"
+            android:state_focused="false"
+            android:drawable="?attr/colorControlNormal"/>
+        <item android:drawable="?attr/colorControlActivated"/>
+    </selector>
+</inset>

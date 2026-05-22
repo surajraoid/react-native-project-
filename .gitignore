@@ -1,0 +1,56 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Android
+android/app/build/
+android/build/
+android/.gradle/
+android/app/debug.keystore
+android/app/release/
+android/local.properties
+*.keystore
+!android/app/debug.keystore
+
+# React Native
+.expo/
+.expo-shared/
+*.jsbundle
+
+# Metro
+.metro-health-check*
+
+# Buck
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
+
+# Build
+build/
+dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+
+# Temporary
+tmp/
+temp/
+push_to_github.js

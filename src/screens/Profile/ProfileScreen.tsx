@@ -6,7 +6,6 @@ import {
   ScrollView,
   TouchableOpacity,
   StatusBar,
-  Platform,
   Switch,
   Alert,
 } from 'react-native';
@@ -121,7 +120,7 @@ export default function ProfileScreen() {
         {
           id: 'rate',
           emoji: '⭐',
-          label: 'Rate on App Store',
+          label: 'Rate on Play Store',
           type: 'link',
           onPress: () => {},
         },
@@ -331,7 +330,7 @@ const styles = StyleSheet.create({
   container: {flex: 1, backgroundColor: Colors.background},
   profileHeader: {
     alignItems: 'center',
-    paddingTop: Platform.OS === 'ios' ? 70 : 50,
+    paddingTop: 50,
     paddingBottom: Spacing.xl,
     paddingHorizontal: Spacing.xl,
     overflow: 'hidden',

@@ -1,5 +1,12 @@
-import {Dimensions, Platform} from 'react-native';
+import {Dimensions, Platform, StatusBar} from 'react-native';
 import {AspectRatio} from '../types';
+
+// Android-only app — always true
+export const IS_ANDROID = true;
+export const IS_IOS = false;
+
+// Android status bar height
+export const STATUS_BAR_HEIGHT = StatusBar.currentHeight ?? 24;
 
 export function getCanvasDimensions(aspectRatio: AspectRatio, containerWidth: number) {
   const ratios: Record<AspectRatio, number> = {
@@ -115,5 +122,3 @@ export function debounce<T extends (...args: unknown[]) => void>(
   };
 }
 
-export const IS_IOS = Platform.OS === 'ios';
-export const IS_ANDROID = Platform.OS === 'android';

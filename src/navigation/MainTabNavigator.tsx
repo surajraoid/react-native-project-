@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text, StyleSheet, Platform} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {MainTabParams} from './types';
 import {Colors, Spacing, Typography, BorderRadius} from '../theme';
@@ -84,9 +84,9 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.surface,
     borderTopColor: Colors.border,
     borderTopWidth: 1,
-    height: Platform.OS === 'ios' ? 84 : 68,
+    height: 68,
     paddingTop: Spacing.sm,
-    paddingBottom: Platform.OS === 'ios' ? Spacing.xl : Spacing.sm,
+    paddingBottom: Spacing.sm,
     elevation: 20,
     shadowColor: Colors.black,
     shadowOffset: {width: 0, height: -4},

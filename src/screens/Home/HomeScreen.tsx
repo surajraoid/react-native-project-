@@ -343,7 +343,7 @@ function getGreeting(): string {
 
 const styles = StyleSheet.create({
   container: {flex: 1, backgroundColor: Colors.background},
-  scroll: {paddingTop: Platform.OS === 'ios' ? 50 : 30},
+  scroll: {paddingTop: 30},
   scrollLandscape: {},
   header: {
     paddingHorizontal: Spacing.base,
@@ -503,7 +503,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: BorderRadius.xl2,
     borderTopRightRadius: BorderRadius.xl2,
     padding: Spacing.xl,
-    paddingBottom: Platform.OS === 'ios' ? 40 : Spacing.xl,
+    paddingBottom: Spacing.xl,
     gap: Spacing.md,
     overflow: 'hidden',
   },

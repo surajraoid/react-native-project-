@@ -6,7 +6,6 @@ import {
   ScrollView,
   TouchableOpacity,
   StatusBar,
-  Platform,
   Alert,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
@@ -277,7 +276,7 @@ export default function SubscriptionScreen() {
 const styles = StyleSheet.create({
   container: {flex: 1, backgroundColor: Colors.background},
   hero: {
-    paddingTop: Platform.OS === 'ios' ? 60 : 40,
+    paddingTop: 40,
     paddingHorizontal: Spacing.xl,
     paddingBottom: Spacing.xl2,
     alignItems: 'center',
@@ -286,7 +285,7 @@ const styles = StyleSheet.create({
   },
   closeBtn: {
     position: 'absolute',
-    top: Platform.OS === 'ios' ? 60 : 40,
+    top: 40,
     right: Spacing.base,
     width: 36,
     height: 36,

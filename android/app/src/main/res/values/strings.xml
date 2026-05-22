@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToonCraft Pro</string>
+    <string name="rn_editor_open">Open editor</string>
+
+    <!-- Permission rationale messages -->
+    <string name="camera_permission_rationale">ToonCraft Pro needs camera access to record video for your cartoon projects</string>
+    <string name="mic_permission_rationale">ToonCraft Pro needs microphone access for voice recording and narration</string>
+    <string name="storage_permission_rationale">ToonCraft Pro needs storage access to save and export your cartoon videos</string>
+
+    <!-- Notification channels -->
+    <string name="export_channel_name">Video Export</string>
+    <string name="export_channel_description">Shows progress while exporting cartoon videos</string>
+
+    <!-- Subscription -->
+    <string name="pro_monthly_product_id">tooncraftpro_monthly_99</string>
+    <string name="pro_yearly_product_id">tooncraftpro_yearly_799</string>
+</resources>
