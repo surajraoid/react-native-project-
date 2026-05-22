@@ -8,7 +8,7 @@ import {
   useWindowDimensions,
   ScrollView,
 } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'expo-linear-gradient';
 import {useNavigation, useRoute, RouteProp} from '@react-navigation/native';
 import {Colors, Spacing, Typography, BorderRadius} from '../../theme';
 import {RootStackParams} from '../../navigation/types';

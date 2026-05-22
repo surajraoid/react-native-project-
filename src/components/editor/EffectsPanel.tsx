@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {View, Text, StyleSheet, ScrollView, TouchableOpacity, FlatList} from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'expo-linear-gradient';
 import {Colors, Spacing, Typography, BorderRadius} from '../../theme';
 import Badge from '../ui/Badge';
 import {EFFECT_CATEGORIES, CARTOON_STYLES} from '../../utils/constants';

@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import {View, StyleSheet, ViewStyle} from 'react-native';
 import Animated, {useSharedValue, useAnimatedStyle, withTiming, Easing} from 'react-native-reanimated';
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'expo-linear-gradient';
 import {Colors, BorderRadius} from '../../theme';
 
 interface ProgressBarProps {

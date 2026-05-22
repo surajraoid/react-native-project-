@@ -1,6 +1,6 @@
 import React, {useCallback} from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, ActivityIndicator} from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'expo-linear-gradient';
 import {Colors, Spacing, Typography, BorderRadius} from '../../theme';
 import {useVideoEditor} from '../../hooks/useVideoEditor';
 import {useOrientation} from '../../hooks/useOrientation';

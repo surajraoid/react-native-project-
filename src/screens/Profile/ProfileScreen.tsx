@@ -9,7 +9,7 @@ import {
   Switch,
   Alert,
 } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'expo-linear-gradient';
 import {useNavigation} from '@react-navigation/native';
 import {Colors, Typography, Spacing, BorderRadius, Shadow} from '../../theme';
 import {useAppStore} from '../../store/useAppStore';

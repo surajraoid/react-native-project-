@@ -1,7 +1,41 @@
 {
-  "name": "ToonCraftPro",
-  "displayName": "ToonCraft Pro",
-  "bundleId": "com.tooncraftpro.app",
-  "version": "1.0.0",
-  "buildNumber": 1
+  "expo": {
+    "name": "ToonCraft Pro",
+    "slug": "tooncraftpro",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "platforms": ["android", "web"],
+    "android": {
+      "package": "com.tooncraftpro.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A1A"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.READ_MEDIA_VIDEO",
+        "android.permission.READ_MEDIA_IMAGES",
+        "android.permission.READ_MEDIA_AUDIO",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "name": "ToonCraft Pro",
+      "shortName": "ToonCraft",
+      "description": "Professional cartoon video maker — create stunning animated videos with AI-powered tools",
+      "backgroundColor": "#0A0A1A",
+      "themeColor": "#7C4DFF",
+      "lang": "en",
+      "bundler": "webpack",
+      "output": "static"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "tooncraftpro"
+      }
+    }
+  }
 }

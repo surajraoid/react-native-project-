@@ -44,6 +44,7 @@ export class VideoService {
 
     // Return simulated file path
     const filename = `${sanitizeFilename(project.name)}_${Date.now()}.${config.format}`;
+    if (Platform.OS === 'web') { return `downloads/${filename}`; }
     return Platform.OS === 'ios'
       ? `${getDocumentsDir()}/${filename}`
       : `${getExternalDir()}/${filename}`;

@@ -11,7 +11,7 @@ import {
   ScrollView,
   Dimensions,
 } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'expo-linear-gradient';
 import {useNavigation} from '@react-navigation/native';
 import {Colors, Typography, Spacing, BorderRadius, Shadow} from '../../theme';
 import {TEMPLATE_CATEGORIES} from '../../utils/constants';

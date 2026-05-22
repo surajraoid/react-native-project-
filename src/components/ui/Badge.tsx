@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet, ViewStyle} from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+import LinearGradient from 'expo-linear-gradient';
 import {Colors, Typography, Spacing, BorderRadius} from '../../theme';
 
 type BadgeVariant = 'primary' | 'secondary' | 'success' | 'warning' | 'error' | 'gold' | 'outline' | 'pro';
